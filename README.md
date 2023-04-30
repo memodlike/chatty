@@ -2,43 +2,6 @@
 
  This project is powered by FLutter **3.0.5** and dart **2.17.6**.
  
-# Screenshots:
-
-<h3> 1- splash screen </h3>
-
-<p align="center">
-  <img src="Screenshots/0_screen.jpg" width="300" hight=500  title="1- splash screen">
-</p>
-
-<h3> 2- Home screen </h3>
-
-<p align="center">
-  <img src="Screenshots/1_screen.jpg" width="300" hight=500  title="2- Home screen">
-</p>
-<h3> 3- Image Generation screen </h3>
- 
-<p align="center">
-  <img src="Screenshots/2_screen.jpg" width="300" hight=500  title="3- Image Generation screen">
-  <img src="Screenshots/4_screen.jpg" width="300" hight=500  title="3- Image Generation screen">
-  <img src="Screenshots/3_screen.jpg" width="300" hight=500  title="3- Image Generation screen">
-</p>
-
-<h3> 4- Text Completion screen </h3>
-
-<p align="center">
-  <img src="Screenshots/5_screen.jpg" width="300" hight=500  title="4- Text Completion screen">
-</p>
-<h3> 5- Screen Recorder </h3>
-<p align="center">
-  <video width="320" height="500" autoplay>
-  <source src="https://drive.google.com/file/d/1BWbXQh2eReGT0swQ8Ch-NhZ7kEAAInMt/view?usp=sharing" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-https://drive.google.com/file/d/1BWbXQh2eReGT0swQ8Ch-NhZ7kEAAInMt/view?usp=sharing
-
-
-</p>
 
 The main packages used in the project:
 
