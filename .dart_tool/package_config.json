@@ -3,21 +3,21 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-51.0.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-58.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/analyzer-5.3.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/analyzer-5.10.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "args",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/args-2.3.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/args-2.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "async",
@@ -27,7 +27,7 @@
     },
     {
       "name": "bloc",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/bloc-8.1.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/bloc-8.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -51,13 +51,13 @@
     },
     {
       "name": "build_daemon",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/build_daemon-3.1.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/build_daemon-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "build_resolvers",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/build_resolvers-2.1.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/build_resolvers-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -81,7 +81,7 @@
     },
     {
       "name": "built_value",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/built_value-8.4.2",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/built_value-8.4.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -111,9 +111,9 @@
     },
     {
       "name": "checked_yaml",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/checked_yaml-2.0.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/checked_yaml-2.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "clock",
@@ -141,9 +141,9 @@
     },
     {
       "name": "cross_file",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/cross_file-0.3.3+2",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/cross_file-0.3.3+4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "crypto",
@@ -159,9 +159,9 @@
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/dart_style-2.2.4",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/dart_style-2.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "dartz",
@@ -201,9 +201,9 @@
     },
     {
       "name": "fixnum",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/fixnum-1.0.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter",
@@ -213,7 +213,7 @@
     },
     {
       "name": "flutter_bloc",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -315,7 +315,7 @@
     },
     {
       "name": "io",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/io-1.0.3",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/io-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -327,15 +327,15 @@
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/json_annotation-4.7.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/json_annotation-4.8.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "json_serializable",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/json_serializable-6.5.4",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/json_serializable-6.6.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "lints",
@@ -345,9 +345,9 @@
     },
     {
       "name": "logging",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/logging-1.1.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/logging-1.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "matcher",
@@ -369,9 +369,9 @@
     },
     {
       "name": "mime",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/mime-1.0.3",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/mime-1.0.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "nested",
@@ -399,43 +399,37 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider-2.0.11",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider-2.0.14",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.17"
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_android-2.0.22",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_android-2.0.25",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.17"
     },
     {
-      "name": "path_provider_ios",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_ios-2.0.11",
+      "name": "path_provider_foundation",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.7",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_macos",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_macos-2.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "path_provider_platform_interface",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.0.5",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_platform_interface-2.0.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path_provider_windows",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.3",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -453,9 +447,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.3",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "pool",
@@ -489,9 +483,9 @@
     },
     {
       "name": "pubspec_parse",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "retrofit",
@@ -513,13 +507,13 @@
     },
     {
       "name": "share_plus",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/share_plus-6.3.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/share_plus-6.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "share_plus_platform_interface",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/share_plus_platform_interface-3.2.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/share_plus_platform_interface-3.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -549,9 +543,9 @@
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/source_gen-1.2.6",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/source_gen-1.2.7",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "source_helper",
@@ -567,13 +561,13 @@
     },
     {
       "name": "sqflite",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/sqflite-2.2.2",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/sqflite-2.2.7",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "sqflite_common",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/sqflite_common-2.4.0+2",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/sqflite_common-2.4.4",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -603,9 +597,9 @@
     },
     {
       "name": "synchronized",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/synchronized-3.0.0+3",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/synchronized-3.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
@@ -621,9 +615,9 @@
     },
     {
       "name": "timing",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/timing-1.0.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/timing-1.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "tuple",
@@ -639,27 +633,27 @@
     },
     {
       "name": "url_launcher_linux",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_linux-3.0.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_linux-3.0.4",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "url_launcher_platform_interface",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.1.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_web-2.0.13",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_web-2.0.16",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "url_launcher_windows",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_windows-3.0.1",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/url_launcher_windows-3.0.5",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "uuid",
@@ -681,21 +675,21 @@
     },
     {
       "name": "web_socket_channel",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/web_socket_channel-2.2.0",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/web_socket_channel-2.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.15"
     },
     {
       "name": "win32",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/win32-3.1.3",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/win32-3.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/xdg_directories-0.2.0+2",
+      "rootUri": "file:///Users/memodlike/.pub-cache/hosted/pub.dev/xdg_directories-1.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "yaml",
@@ -710,7 +704,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-13T06:24:29.411996Z",
+  "generated": "2023-04-23T21:49:03.881802Z",
   "generator": "pub",
-  "generatorVersion": "2.19.4"
+  "generatorVersion": "2.19.6"
 }
