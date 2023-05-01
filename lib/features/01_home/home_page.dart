@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 137, 121, 78),
+      backgroundColor: Color(0xFF280666),
       body: Container(
         padding: const EdgeInsets.all(AppPadding.p20),
         child: Column(
@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
             Column(
               children: [
                 const SizedBox(
-                  height: AppSize.s150,
+                  height: AppSize.s10,
                   child: Text(
                     "Chatty",
                     style: TextStyle(
