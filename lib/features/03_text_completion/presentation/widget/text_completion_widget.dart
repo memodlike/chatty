@@ -16,7 +16,7 @@ class TextCompletionWidget extends StatelessWidget {
       itemBuilder: (BuildContext context, int index) {
         final textData = choicesData[index];
         return Card(
-          color: Color.fromARGB(255, 108, 95, 61),
+          color: Color.fromARGB(255, 40, 6, 102),
           child: Padding(
             padding: const EdgeInsets.all(AppPadding.p14),
             child: Column(

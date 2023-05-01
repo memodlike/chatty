@@ -3,7 +3,7 @@
 const String IMAGE_PATH = 'assets/images';
 
 class ImageAssets {
-  static const String appLogo = '$IMAGE_PATH/Chatty_logo.png';
+  static const String appLogo = '$IMAGE_PATH/v3.png';
   static const String loading = '$IMAGE_PATH/loading.gif';
-  static const String openAiAvatar = '$IMAGE_PATH/open-ai-avatar.png';
+  static const String openAiAvatar = '$IMAGE_PATH/v3.png';
 }

@@ -134,7 +134,7 @@ ADDED from [:share_plus] /Users/memodlike/projects/chatty/build/share_plus/inter
 receiver#dev.fluttercommunity.plus.share.SharePlusPendingIntent
 ADDED from [:share_plus] /Users/memodlike/projects/chatty/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-34:20
 	android:exported
-		ADDED from [:share_plus] /Users/memodlike/projects/chatty/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+		ADDED from [:share_plus] /Users/memodlike/projects/chatty/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [:share_plus] /Users/memodlike/projects/chatty/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-82
 intent-filter#action:name:EXTRA_CHOSEN_COMPONENT

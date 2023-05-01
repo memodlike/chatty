@@ -35,9 +35,9 @@ class _ImageGenerationPageState extends State<ImageGenerationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 137, 121, 78),
+      backgroundColor: Color.fromARGB(255, 40, 6, 102),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 137, 121, 78),
+        backgroundColor: Color.fromARGB(255, 40, 6, 102),
         title: Text(AppStrings.imageGeneration.split("-")[0]),
       ),
       body: Center(

@@ -77,7 +77,7 @@
         -->
         <receiver
             android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
-            android:exported="true" >
+            android:exported="false" >
             <intent-filter>
                 <action android:name="EXTRA_CHOSEN_COMPONENT" />
             </intent-filter>

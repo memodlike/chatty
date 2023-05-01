@@ -20,7 +20,7 @@ class HomeButtonWidget extends StatelessWidget {
         alignment: Alignment.centerLeft,
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         decoration: BoxDecoration(
-          color: Color.fromARGB(60, 0, 0, 0),
+          color: Color(0xFF280666),
           borderRadius: BorderRadius.circular(210),
           boxShadow: Constants.glowBoxShadow,
         ),

@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class SearchTextFieldWidget extends StatelessWidget {
@@ -11,7 +9,6 @@ class SearchTextFieldWidget extends StatelessWidget {
     this.textEditingController,
     this.onTap,
   }) : super(key: key);
-
 
   @override
   Widget build(BuildContext context) {
@@ -27,15 +24,16 @@ class SearchTextFieldWidget extends StatelessWidget {
           Expanded(
             child: Container(
               decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.all(Radius.circular(10)),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(.2),
-                      offset: const Offset(0.0, 0.50),
-                      spreadRadius: 1,
-                      blurRadius: 1,
-                    )
-                  ]),
+                borderRadius: const BorderRadius.all(Radius.circular(10)),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(.2),
+                    offset: const Offset(0.0, 0.50),
+                    spreadRadius: 1,
+                    blurRadius: 1,
+                  )
+                ],
+              ),
               child: Column(
                 children: [
                   Row(
@@ -53,7 +51,7 @@ class SearchTextFieldWidget extends StatelessWidget {
                               maxLines: null,
                               decoration: const InputDecoration(
                                   border: InputBorder.none,
-                                  hintText: "Open AI Waiting for your query..."),
+                                  hintText: "OpenAI ожидает вашего запроса..."),
                             ),
                           ),
                         ),
@@ -71,9 +69,7 @@ class SearchTextFieldWidget extends StatelessWidget {
             width: 5,
           ),
           InkWell(
-            onTap: textEditingController!.text.isEmpty
-                ? null
-                : onTap,
+            onTap: textEditingController!.text.isEmpty ? null : onTap,
             child: Container(
               decoration: BoxDecoration(
                   color: textEditingController!.text.isEmpty

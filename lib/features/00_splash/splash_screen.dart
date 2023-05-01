@@ -15,7 +15,8 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
-  late Animation<double> _animation;
+  late Animation<double> _rotationAnimation;
+  late Animation<Color?> _colorAnimation;
   bool _isComplete = false;
 
   @override
@@ -25,13 +26,20 @@ class _SplashScreenState extends State<SplashScreen>
       vsync: this,
       duration: const Duration(seconds: 2),
     );
-    _animation = Tween<double>(begin: 0, end: 1).animate(_controller)
+
+    _rotationAnimation = Tween<double>(begin: 0, end: 1).animate(_controller)
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed && !_isComplete) {
           _isComplete = true;
           Navigator.pushReplacementNamed(context, Routes.homeRoute);
         }
       });
+
+    _colorAnimation = ColorTween(
+            begin: Color.fromARGB(255, 54, 244, 70),
+            end: Color.fromARGB(255, 40, 6, 102))
+        .animate(_controller);
+
     _controller.forward();
   }
 
@@ -44,16 +52,18 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
       body: AnimatedBuilder(
-        animation: _animation,
+        animation: _controller,
         builder: (context, child) {
-          return Center(
-            child: Transform.rotate(
-              angle: _animation.value * 2 * 3.14,
-              child: Image.asset(
-                ImageAssets.openAiAvatar,
-                fit: BoxFit.contain,
+          return Container(
+            color: _colorAnimation.value,
+            child: Center(
+              child: Transform.rotate(
+                angle: _rotationAnimation.value * 2 * 3.14,
+                child: Image.asset(
+                  ImageAssets.openAiAvatar,
+                  fit: BoxFit.contain,
+                ),
               ),
             ),
           );
