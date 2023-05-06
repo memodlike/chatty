@@ -2,44 +2,7 @@
 
  This project is powered by FLutter **3.0.5** and dart **2.17.6**.
  
-# Screenshots:
-
-<h3> 1- splash screen </h3>
-
-<p align="center">
-  <img src="Screenshots/0_screen.jpg" width="300" hight=500  title="1- splash screen">
-</p>
-
-<h3> 2- Home screen </h3>
-
-<p align="center">
-  <img src="Screenshots/1_screen.jpg" width="300" hight=500  title="2- Home screen">
-</p>
-<h3> 3- Image Generation screen </h3>
- 
-<p align="center">
-  <img src="Screenshots/2_screen.jpg" width="300" hight=500  title="3- Image Generation screen">
-  <img src="Screenshots/4_screen.jpg" width="300" hight=500  title="3- Image Generation screen">
-  <img src="Screenshots/3_screen.jpg" width="300" hight=500  title="3- Image Generation screen">
-</p>
-
-<h3> 4- Text Completion screen </h3>
-
-<p align="center">
-  <img src="Screenshots/5_screen.jpg" width="300" hight=500  title="4- Text Completion screen">
-</p>
-<h3> 5- Screen Recorder </h3>
-<p align="center">
-  <video width="320" height="500" autoplay>
-  <source src="https://drive.google.com/file/d/1BWbXQh2eReGT0swQ8Ch-NhZ7kEAAInMt/view?usp=sharing" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-https://drive.google.com/file/d/1BWbXQh2eReGT0swQ8Ch-NhZ7kEAAInMt/view?usp=sharing
-
-
-</p>
-
+# Screenshots
 The main packages used in the project:
 
 ```yaml
@@ -71,37 +34,6 @@ dev_dependencies:
   json_serializable: ^6.2.0
 ```
 
-## How to Use 
-
-**Step 1:**
-
-Download or clone this repo by using the link below:
-
-```
-https://github.com/osamasabry9/Flutter_ChatGPT.git
-```
-
-**Step 2:**
-
-Go to project root and execute the following command in console to get the required dependencies: 
-
-```
-flutter pub get 
-```
-
-**Step 3:**
-
-This project uses `inject` library that works with code generation, execute the following command to generate files:
-
-```
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
-
-or watch command in order to keep the source code synced automatically:
-
-```
-flutter packages pub run build_runner watch
-```
 ### Folder Structure
 Here is the core folder structure which flutter provides.
 
