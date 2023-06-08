@@ -14,7 +14,7 @@ class ImageRemoteDataSourceImpl implements ImageRemoteDataSource {
   Future<ImageDataResponse> getGenerateImages(String query) async {
     return await _appServiceClient.getGenerateImages(
       query,
-      10,
+      2,
       '256x256',
     );
   }

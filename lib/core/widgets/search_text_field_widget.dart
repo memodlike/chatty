@@ -69,16 +69,18 @@ class SearchTextFieldWidget extends StatelessWidget {
             width: 5,
           ),
           InkWell(
+            highlightColor: Colors.transparent,
+            splashColor: Colors.transparent,
             onTap: textEditingController!.text.isEmpty ? null : onTap,
             child: Container(
               decoration: BoxDecoration(
                   color: textEditingController!.text.isEmpty
-                      ? Colors.green.withOpacity(.4)
-                      : Colors.green,
+                      ? Color.fromARGB(255, 126, 146, 255).withOpacity(.4)
+                      : Color.fromARGB(255, 126, 146, 255),
                   borderRadius: BorderRadius.circular(40)),
               padding: const EdgeInsets.all(10),
               child: const Icon(
-                Icons.send,
+                Icons.send_outlined,
                 color: Colors.white,
               ),
             ),

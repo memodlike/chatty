@@ -8,7 +8,7 @@ class Constants {
   static const String endPointText = "/completions";
   static const int apiTimeOut = 60000;
   static const String OPEN_AI_KEY =
-      "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";
+      "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";
   static const String empty = "";
   static const int zero = 0;
 

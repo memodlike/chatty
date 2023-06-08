@@ -40,45 +40,61 @@ class _ImageGenerationPageState extends State<ImageGenerationPage> {
         backgroundColor: Color.fromARGB(255, 40, 6, 102),
         title: Text(AppStrings.imageGeneration.split("-")[0]),
       ),
-      body: Center(
-        child: Column(
-          children: [
-            Expanded(
-                child: BlocBuilder<ImageGenerationCubit, ImageGenerationState>(
-              builder: (context, imageGenerationState) {
-                if (imageGenerationState is ImageGenerationLoading) {
-                  return const LoadingWidget();
-                }
+      body: NestedScrollView(
+        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+          return <Widget>[
+            SliverAppBar(
+              backgroundColor: Color.fromARGB(255, 40, 6, 102),
+              floating: true,
+              snap: true,
+              toolbarHeight: 0,
+              automaticallyImplyLeading: false,
+            ),
+          ];
+        },
+        body: Center(
+          child: Column(
+            children: [
+              Expanded(child:
+                  BlocBuilder<ImageGenerationCubit, ImageGenerationState>(
+                builder: (context, imageGenerationState) {
+                  if (imageGenerationState is ImageGenerationLoading) {
+                    return const LoadingWidget();
+                  }
 
-                if (imageGenerationState is ImageGenerationLoaded) {
-                  return GeneratedImageWidget(
-                    imageGenerationModelData:
-                        imageGenerationState.imageGenerationModelData,
+                  if (imageGenerationState is ImageGenerationLoaded) {
+                    return Scrollbar(
+                      isAlwaysShown: true,
+                      child: GeneratedImageWidget(
+                        imageGenerationModelData:
+                            imageGenerationState.imageGenerationModelData,
+                      ),
+                    );
+                  }
+
+                  return const Center(
+                    child: Text(
+                      AppStrings.imageGeneration,
+                      style: TextStyle(fontSize: 20, color: Colors.grey),
+                    ),
                   );
-                }
-
-                return const Center(
-                  child: Text(
-                    AppStrings.imageGeneration,
-                    style: TextStyle(fontSize: 20, color: Colors.grey),
-                  ),
-                );
-              },
-            )),
-            SearchTextFieldWidget(
-              textEditingController: _searchTextController,
-              onTap: () {
-                BlocProvider.of<ImageGenerationCubit>(context)
-                    .imagesGenerate(
-                      query: _searchTextController.text,
-                    )
-                    .then((value) => _clearTextField);
-              },
-            ),
-            const SizedBox(
-              height: AppSize.s20,
-            ),
-          ],
+                },
+              )),
+              SearchTextFieldWidget(
+                textEditingController: _searchTextController,
+                onTap: () {
+                  BlocProvider.of<ImageGenerationCubit>(context)
+                      .imagesGenerate(
+                        query: _searchTextController.text,
+                      )
+                      .then((value) => _clearTextField);
+                },
+              ),
+              const SizedBox(
+                height: AppSize.s20,
+              ),
+            ],
+          ),
         ),
       ),
     );

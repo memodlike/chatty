@@ -1,9 +1,4 @@
-# Chat GPT : ( Clean architecture with MVVM ).
-
- This project is powered by FLutter **3.0.5** and dart **2.17.6**.
- 
-# Screenshots
-The main packages used in the project:
+# Chatty : Clean architecture with MVVM
 
 ```yaml
 dependencies:
