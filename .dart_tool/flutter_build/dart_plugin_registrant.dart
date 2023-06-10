@@ -7,12 +7,17 @@
 
 import 'dart:io'; // flutter_ignore: dart_io_import.
 import 'package:path_provider_android/path_provider_android.dart';
+import 'package:sqflite/sqflite.dart';
 import 'package:path_provider_foundation/path_provider_foundation.dart';
+import 'package:sqflite/sqflite.dart';
 import 'package:path_provider_linux/path_provider_linux.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher_linux/url_launcher_linux.dart';
 import 'package:path_provider_foundation/path_provider_foundation.dart';
+import 'package:sqflite/sqflite.dart';
 import 'package:path_provider_windows/path_provider_windows.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher_windows/url_launcher_windows.dart';
 
 @pragma('vm:entry-point')
 class _PluginRegistrant {
@@ -27,7 +32,15 @@ class _PluginRegistrant {
           '`path_provider_android` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
+      }
+
+      try {
+        SqflitePlugin.registerWith();
+      } catch (err) {
+        print(
+          '`sqflite` threw an error: $err. '
+          'The app may not function as expected until you remove this plugin from pubspec.yaml'
+        );
       }
 
     } else if (Platform.isIOS) {
@@ -38,7 +51,15 @@ class _PluginRegistrant {
           '`path_provider_foundation` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
+      }
+
+      try {
+        SqflitePlugin.registerWith();
+      } catch (err) {
+        print(
+          '`sqflite` threw an error: $err. '
+          'The app may not function as expected until you remove this plugin from pubspec.yaml'
+        );
       }
 
     } else if (Platform.isLinux) {
@@ -49,7 +70,6 @@ class _PluginRegistrant {
           '`path_provider_linux` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -59,7 +79,15 @@ class _PluginRegistrant {
           '`share_plus` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
+      }
+
+      try {
+        UrlLauncherLinux.registerWith();
+      } catch (err) {
+        print(
+          '`url_launcher_linux` threw an error: $err. '
+          'The app may not function as expected until you remove this plugin from pubspec.yaml'
+        );
       }
 
     } else if (Platform.isMacOS) {
@@ -70,7 +98,15 @@ class _PluginRegistrant {
           '`path_provider_foundation` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
+      }
+
+      try {
+        SqflitePlugin.registerWith();
+      } catch (err) {
+        print(
+          '`sqflite` threw an error: $err. '
+          'The app may not function as expected until you remove this plugin from pubspec.yaml'
+        );
       }
 
     } else if (Platform.isWindows) {
@@ -81,7 +117,6 @@ class _PluginRegistrant {
           '`path_provider_windows` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
       }
 
       try {
@@ -91,7 +126,15 @@ class _PluginRegistrant {
           '`share_plus` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
-        rethrow;
+      }
+
+      try {
+        UrlLauncherWindows.registerWith();
+      } catch (err) {
+        print(
+          '`url_launcher_windows` threw an error: $err. '
+          'The app may not function as expected until you remove this plugin from pubspec.yaml'
+        );
       }
 
     }
